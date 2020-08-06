@@ -1,6 +1,8 @@
-$mediaXS: 0 ;
-$mediaSM: 768px;
-$mediaMD: 1024px;
-$mediaLG: 1366px;
-$mediaXL: 1920px;
-$mediaMAX: 99999px;
+// Media
+
+$desktopWidth            : 1280px;
+$smDesktopWidth          : 1024px;
+$tableWidth              : 768px;
+$smTableWidth            : 640px;
+$phoneWidth              : 480px;
+$smPhoneWidth            : 320px;

@@ -1,8 +1,32 @@
-* {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
     outline: none;
 }
 
 body {
     position: relative;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #415276;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    margin: 0 auto;
+    padding: 0 80px;
+    max-width: 1440px;
 }

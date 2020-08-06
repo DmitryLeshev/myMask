@@ -3,21 +3,149 @@
     <title>Boilerplate</title>
 <link href="./assets/css/styles.css" rel="stylesheet"></head>
 <body>
-<header>HEADER START</header>
-<img src="assets/img/cat.jpg" width="100" alt="">
-<header>HEADER END</header>
 
-<div class="grid-row">
-    <div class="grid-col--5">
-        <div class="cat">
-            <img src="assets/img/cat.jpg" width="100" alt="">
-            <div class="cat__photo"></div>
-            <div class="cat__title">Cat</div>
+<header class="header">
+
+    <div class="container">
+
+        <div class="logo"></div>
+
+        <div class="search">
+
+            <input class="search__input" type="text" placeholder="Поиск по сайту">
+
+            <button class="search__button">
+
+                <i class="search__icon"></i>
+        
+            </button>
+
         </div>
+
+        <div class="join">
+            <button class="join__button">
+                <span class="join__text">
+                    Вступить в МАКС
+                </span>
+            </button>
+        </div>
+
+        <div class="contacts">
+            <button class="contacts__button">
+                <span class="contacts__text">
+                    Контакты
+                </span>
+            </button>
+        </div>
+
+        <div class="info">
+
+            <div class="info__lates-news">
+
+                <a href="" class="lates-news__link">
+                    Последние новости:
+                </a>
+
+            </div>
+
+            <div class="info__time">
+
+                <span class="time__text">
+                    31.07.2021
+                </span>
+
+            </div>
+
+            <div class="info__article">
+
+                <span class="article__text">
+                    Подводим итоги всеросийского съезда курьерских служб, который состоялся 22 июня в Москве. Мероприятие посетили... Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quidem, laboriosam unde fugit mollitia, maiores aliquam laborum, illum nobis fuga ratione sapiente dolores? Repellendus sit, vero labore consequuntur delectus laboriosam amet voluptate, maiores explicabo harum aut molestias facere exercitationem assumenda?
+                </span>
+
+            </div>
+
+        </div>
+
+        <div class="site-navigation">
+
+            <ul class="site-navigation__list">
+
+                <li class="site-navigation__item 
+                    site-navigation__item_decorative-strip
+                    site-navigation__item_first">
+                    <a class="site-navigation__link site-navigation__item_first" href="#">О МАКС</a>
+                </li>
+
+                <li class="site-navigation__item site-navigation__item_decorative-strip">
+                    <a class="site-navigation__link" href="#">Членство</a>
+                </li>
+
+                <li class="site-navigation__item site-navigation__item_decorative-strip">
+                    <a class="site-navigation__link" href="#">Мероприятия</a>
+                </li>
+
+                <li class="site-navigation__item site-navigation__item_decorative-strip">
+                    <a class="site-navigation__link" href="#">Аналитика</a>
+                </li>
+
+                <li class="site-navigation__item site-navigation__item_decorative-strip">
+                    <a class="site-navigation__link" href="#">Медиа</a>
+                </li>
+
+                <li class="site-navigation__item site-navigation__item_decorative-strip">
+                    <a class="site-navigation__link" href="#">Экспертиза</a>
+                </li>
+
+                <li class="site-navigation__item
+                    site-navigation__item_last">
+                    <a class="site-navigation__link" href="#">Покупателям</a>
+                </li>
+
+            </ul>
+
+        </div>
+
     </div>
-</div>
-<a href="products.html">products.html</a>
+
+</header>
+
+
+<main class="main">
+
+    <section class="preview">
+
+        <div class="preview__slider">
+
+            <div class="slider__content">
+
+            </div>
+
+            <div class="slider__controller">
+
+                <span class="controller__back controller__item"></span>
+                <span class="controller__next controller__item"></span>
+                <div class="controller__dots">
+
+                    <span class="dots__item dots__item_active"></span>
+                    <span class="dots__item"></span>
+                    <span class="dots__item"></span>
+                    <span class="dots__item"></span>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
 <footer>footer</footer>
+
 
 <script type="text/javascript" src="./assets/js/bundle.js"></script></body>
 </html>
+
+<!-- <a href="products.html">products.html</a> -->

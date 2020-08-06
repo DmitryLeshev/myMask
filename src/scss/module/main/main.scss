@@ -1,0 +1,70 @@
+.preview {
+    width: 100%;
+    height: 650px;
+
+    background-image: url("../../../assets/img/baner-first.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.preview__slider {
+    position: relative;
+
+    height: 650px;
+}
+
+.slider__content {
+
+}
+
+.slider__controller {
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    left: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 365px;
+}
+
+.controller__item {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.controller__back {
+    order: 1;
+    background-image: url("../../../assets/png/arrow.png");
+}
+
+.controller__next {
+    order: 3;
+    background-image: url("../../../assets/png/arrow.png");
+    transform: rotate(180deg);
+}
+
+.controller__dots {
+    order: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.dots__item {
+    margin: 0;
+    padding: 0;
+
+    width: 20%;
+    height: 4px;
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+
+.dots__item_active {
+    opacity: 1;
+}

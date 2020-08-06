@@ -1,0 +1,22 @@
+// Mixin
+
+
+// List
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+// Fonts
+@mixin link-fonts {
+    font-family: "Roboto Condensed";
+
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #595D71;
+}
