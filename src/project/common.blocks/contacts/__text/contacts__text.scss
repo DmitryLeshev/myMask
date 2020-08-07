@@ -1,0 +1,10 @@
+.contacts__text {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@import "./_bold/contacts__text_bold.scss";
+@import "./_uppercase/contacts__text_uppercase.scss";
+@import "./_padding/contacts__text_padding.scss";

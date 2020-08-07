@@ -1,0 +1,12 @@
+.card__title_decorative-line {
+    position: relative;
+}
+
+.card__title_decorative-line::after {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #84C9EC;
+}

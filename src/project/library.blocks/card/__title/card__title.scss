@@ -1,6 +1,7 @@
 .card__title {
     margin: 0;
     padding: 0;
+    padding-bottom: 16px;
     font-family: "Roboto Condensed";
     font-size: 14px;
     line-height: 16px;
@@ -8,3 +9,5 @@
     text-transform: uppercase;
     color: $card-text_color;
 }
+
+@import "./_decorative-line/card__title_decorative-line.scss";

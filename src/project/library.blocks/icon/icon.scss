@@ -1,3 +1,13 @@
 .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
+@import "./_advantages/icon_advantages.scss";
+@import "./_contacts/icon_contacts.scss";
