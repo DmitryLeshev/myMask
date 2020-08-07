@@ -1,0 +1,46 @@
+.partners {
+
+}
+
+.partners__title {
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.partners__content {
+    width: 100%;
+
+    margin-bottom: 120px;
+}
+
+.partners__list {
+    display: flex;
+    justify-content: space-between;
+    @include reset-list;
+    overflow-x: scroll;
+    padding-bottom: 20px;
+}
+
+.partners__item {
+    margin-left: 20px;
+}
+
+.partners__item_order_first {
+    margin-left: 0;
+}
+
+.partners__card {
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(59, 69, 92, 0.1);
+}
+
+.partners__image {
+    width: 220px;
+    height: 124px;
+    background-image: url("../../../assets/png/partners_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

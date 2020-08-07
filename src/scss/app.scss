@@ -1,15 +1,11 @@
-@import "variables/media";
-@import "variables/font";
-@import "variables/color";
+@import "variables/variables.scss";
 
-@import "mixin/mixin";
+@import "mixin/mixin.scss";
 
-@import "lib/normalize";
+@import "lib/lib.scss";
 
-@import 'base/base';
-@import 'base/fonts';
+@import "base/base.scss";
 
-@import 'module/module';
-
-
+@import "../project/library.blocks/library.blocks.scss";
+@import "../project/common.blocks/common.blocks.scss";
 

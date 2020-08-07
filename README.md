@@ -59,3 +59,61 @@ npm run build
 or
 yarn build
 ```
+Структура проекта
+
+src/
+  assets/
+    img/
+    png/
+    svg/
+
+  html/
+    _footer
+    _header
+    _main
+    index
+    products
+
+  js/
+    module/
+    app
+
+  scss/
+    base/
+    lib/
+    mixin/
+    variables/
+    app
+
+  project/
+
+    common.blocks/
+
+      header/
+        __logo/
+        __search/
+        __join/
+        __contacts/
+        __info/
+        __site-navigation/
+
+      main/
+        __preview/
+
+      footer/
+        __logo
+        __about-us
+        __contacts
+        __copyright
+
+      preview/
+
+
+
+    library.blocks/
+      logo/
+      button/
+      input/
+      icon/
+      row/
+        row_size/

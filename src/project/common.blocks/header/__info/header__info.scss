@@ -1,0 +1,9 @@
+.header__info {
+
+}
+
+@media screen and (max-width: $desktopWidth) {
+    .header__info {
+        display: none;
+    }
+}

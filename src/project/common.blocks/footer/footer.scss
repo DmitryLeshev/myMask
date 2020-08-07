@@ -1,0 +1,82 @@
+.footer {
+    background-color: #F7FAFE;
+}
+
+
+
+.footer-contacts {
+
+}
+
+.footer-contacts__media {
+
+}
+
+
+.footer__contacts {
+
+}
+
+.contacts__telephone {
+    display: flex;
+    align-items: center;
+}
+
+.telephone__icon {
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    
+    background-image: url("../../../assets/svg/telephone.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+// .telephone__text {
+//     font-size: 14px;
+//     line-height: 16px;
+// }
+
+.contacts__mail {
+    display: flex;
+    align-items: center;
+}
+
+.mail__icon {
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    
+    background-image: url("../../../assets/svg/mail.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+// .mail__text {
+//     font-size: 14px;
+//     line-height: 16px;
+// }
+
+.footer__copyright {
+    width: 100%;
+
+    background-color: #465EA8;
+}
+
+.copyright {
+
+}
+
+.copyright__text {
+    margin: 0;
+    padding: 15px 0;
+
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+@import "./__contacts/footer__contacts.scss";

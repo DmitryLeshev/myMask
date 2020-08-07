@@ -1,0 +1,6 @@
+.list {
+    
+    @include reset-list;
+}
+
+@import "./__item/list__item.scss";

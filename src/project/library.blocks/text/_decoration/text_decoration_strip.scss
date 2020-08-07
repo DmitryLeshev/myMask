@@ -1,0 +1,15 @@
+.text_decoration_strip {
+    position: relative;
+    padding-left: 30px;
+}
+
+.text_decoration_strip::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) rotate(-70deg);
+    display: block;
+    width: 18px;
+    border-bottom: 1px solid #36A9E1;
+}

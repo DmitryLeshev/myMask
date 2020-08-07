@@ -1,0 +1,10 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@import "./_size/row_size_large.scss";
+@import "./_padding/row_padding_bottom.scss";
+@import "./_padding/row_padding_top.scss";

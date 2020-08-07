@@ -1,0 +1,15 @@
+.site-navigation__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    margin: 0;
+    padding: 15px;
+    list-style: none;
+}
+
+@import "./_decorative-strip/site-navigation__item_decorative-strip.scss";
+@import "./_order/site-navigation__item_order_first.scss";
+@import "./_order/site-navigation__item_order_second.scss";

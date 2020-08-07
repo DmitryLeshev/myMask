@@ -1,8 +1,23 @@
-// Media
+// Row
+$row-xl: 1240px;
+$row-ls: 920px; 
+$row-md: 740px;
+$row-sm: 440px;
+$row-vsm: 290px;
 
-$desktopWidth            : 1280px;
-$smDesktopWidth          : 1024px;
-$tableWidth              : 768px;
-$smTableWidth            : 640px;
-$phoneWidth              : 480px;
-$smPhoneWidth            : 320px;
+
+// Media
+$width-desctop-large: 1440px;
+$width-desctop: 1024px; 
+$width-table: 770px; 
+$width-mobile-large: 440px;
+$width-mobile: 320px; 
+
+$desktopWidth            : $width-desctop-large;
+$smDesktopWidth          : $width-desctop;
+$tableWidth              : $width-table;
+// $smTableWidth            : 640px;
+$phoneWidth              : $width-mobile-large;
+$smPhoneWidth            : $width-mobile;
+
+

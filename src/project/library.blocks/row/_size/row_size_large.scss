@@ -1,0 +1,32 @@
+.row_size_large {
+    margin: 0 auto;
+    width: $row-xl;
+}
+
+@media screen and (max-width: $desktopWidth) {
+    .row_size_large {
+        width: $row-ls;
+        // background-color: red;
+    }
+}
+
+@media screen and (max-width: $smDesktopWidth) {
+    .row_size_large {
+        width: $row-md;
+        // background-color: blue;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .row_size_large {
+        width: $row-sm;
+        // background-color: green;
+    }
+}
+
+@media screen and (max-width: $smPhoneWidth) {
+    .row_size_large {
+        width: $row-vsm;
+        // background-color: yellow;
+    }
+}

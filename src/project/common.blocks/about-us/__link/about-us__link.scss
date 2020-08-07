@@ -1,0 +1,6 @@
+.about-us__link {
+    display: block;
+    padding: 10px 0;
+
+    @include link-fonts;
+}

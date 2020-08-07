@@ -1,0 +1,102 @@
+.header {
+    position: relative;
+
+    padding-top: 20px;
+
+    background-image: url("../../../assets/png/bg_header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.search__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 20px;
+    height: 20px;
+    background-image: url("../../../assets/svg/search.svg");
+}
+
+.join__button {
+    padding: 15px 20px;
+    
+    background: linear-gradient(358.15deg, #465EA8 0.52%, #3655B5 97.4%);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.join__text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+.header-contacts__button {
+    padding: 15px 20px;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.header-contacts__text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #595D71;
+}
+
+.info {
+    padding: 5px 10px;
+
+    width: 320px;
+    height: 105px;
+
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+
+    overflow-y: auto
+}
+
+.info__lates-news {
+    margin-bottom: 5px;
+}
+
+.lates-news__link {
+    font-family: 'Roboto Slab', serif;
+
+    display: block;
+
+    font-size: 13px;
+    line-height: 17px;
+    color: #36A9E1;
+    text-decoration: none;
+
+    opacity: 0.8;
+}
+
+.info__time {
+    margin-bottom: 5px;
+}
+
+.time__text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    line-height: 15px;
+    color: #595D71;
+}
+
+.article__text {
+    font-size: 13px;
+    line-height: 15px;
+    color: #595D71;
+}
+
+@import "./__info/header__info.scss";

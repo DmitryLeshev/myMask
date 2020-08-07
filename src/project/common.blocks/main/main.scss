@@ -1,17 +1,17 @@
 .preview {
+    position: relative;
+
     width: 100%;
     height: 650px;
 
     background-image: url("../../../assets/img/baner-first.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .preview__slider {
-    position: relative;
-
-    height: 650px;
+    
 }
 
 .slider__content {
@@ -20,10 +20,7 @@
 
 .slider__controller {
     position: absolute;
-    z-index: 10;
-    bottom: 10px;
-    left: 100px;
-
+    bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;

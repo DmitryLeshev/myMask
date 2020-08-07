@@ -1,0 +1,11 @@
+.text {
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+@import "./_decoration/text_decoration_strip.scss";
+@import "./_uppercase/text_uppercase.scss";

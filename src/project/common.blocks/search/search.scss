@@ -1,0 +1,10 @@
+.search {
+    position: relative;
+
+    display: flex;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+}
+
+@import "./__input/search__input.scss";
+@import "./__button/search__button.scss";
