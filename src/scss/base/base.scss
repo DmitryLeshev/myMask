@@ -7,7 +7,7 @@
     outline: none;
 }
 
-body {
+.page {
     position: relative;
 
     margin: 0;
@@ -17,6 +17,18 @@ body {
     font-size: 14px;
     font-weight: normal;
     color: #415276;
+}
+
+.page_blackout::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+
+    background-color: rgba($color: #000000, $alpha: 0.3);
 }
 
 .container {

@@ -1,6 +1,7 @@
 .row_size_large {
     margin: 0 auto;
     width: $row-xl;
+    transition: .2s;
 }
 
 @media screen and (max-width: $desktopWidth) {
@@ -17,14 +18,14 @@
     }
 }
 
-@media screen and (max-width: $phoneWidth) {
+@media screen and (max-width: $tableWidth ) {
     .row_size_large {
         width: $row-sm;
         // background-color: green;
     }
 }
 
-@media screen and (max-width: $smPhoneWidth) {
+@media screen and (max-width: $phoneWidth) {
     .row_size_large {
         width: $row-vsm;
         // background-color: yellow;

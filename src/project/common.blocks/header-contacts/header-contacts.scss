@@ -1,0 +1,17 @@
+.header-contacts {
+}
+
+@media screen and (max-width: $smDesktopWidth) {
+    .header-contacts {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: $tableWidth ) {
+    .header-contacts {
+        display: none;
+    }
+}
+
+@import "./__button/header-contacts__button.scss";
+@import "./__text/header-contacts__text.scss";

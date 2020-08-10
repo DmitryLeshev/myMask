@@ -1,0 +1,14 @@
+.join__text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: $tableWidth) {
+    .join__text {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+    }
+}

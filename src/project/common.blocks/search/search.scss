@@ -6,5 +6,21 @@
     border-radius: 5px;
 }
 
+@media screen and (max-width: $smDesktopWidth) {
+    .search {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: $tableWidth ) {
+    .search {
+        margin: 15px 0;
+
+        order: 2;
+        width: 100%;
+    }
+}
+
 @import "./__input/search__input.scss";
 @import "./__button/search__button.scss";
+@import "./__icon/search__icon.scss";

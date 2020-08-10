@@ -7,3 +7,17 @@
     background-position: center;
     background-size: contain;
 }
+
+@media screen and (max-width: $tableWidth) {
+    .logo {
+        width: 142px;
+        height: 52px;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .logo {
+        width: 105px;
+        height: 40px;
+    }
+}

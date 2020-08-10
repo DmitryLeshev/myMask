@@ -1,4 +1,5 @@
 .row {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -6,5 +7,7 @@
 }
 
 @import "./_size/row_size_large.scss";
+@import "./_size/row_size_medium.scss";
 @import "./_padding/row_padding_bottom.scss";
 @import "./_padding/row_padding_top.scss";
+@import "./_wrap/row_wrap.scss";

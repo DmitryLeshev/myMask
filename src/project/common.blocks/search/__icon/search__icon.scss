@@ -1,0 +1,19 @@
+.search__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 20px;
+    height: 20px;
+    background-image: url("../../../assets/svg/search.svg");
+    background-size: contain;
+    background-position: center;
+}
+
+@media screen and (max-width: $tableWidth) {
+    .search__icon {
+        width: 18px;
+        height: 18px;
+    }
+}

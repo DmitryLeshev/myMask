@@ -2,9 +2,21 @@
     content: "";
     position: absolute;
     top: 50%;
-    right: 0;
+    right: -65px;
     transform: translateY(-50%) rotate(-70deg);
     display: block;
     width: 14px;
     border-bottom: 1px solid #36A9E1;
+}
+
+@media screen and (max-width: $desktopWidth) {
+    .site-navigation__item_decorative-strip::after {
+        right: -40px;
+    }
+}
+
+@media screen and (max-width: $smDesktopWidth) {
+    .site-navigation__item_decorative-strip::after {
+        right: -25px;
+    }
 }

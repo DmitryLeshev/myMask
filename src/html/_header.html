@@ -1,6 +1,6 @@
 <header class="header">
 
-    <div class="row row_size_large">
+    <div class="row row_size_large row_wrap_table-width">
 
         <div class="header__logo logo"></div>
 
@@ -60,13 +60,19 @@
 
         </div>
 
+        <button class="site-navigation__toggle site-navigation__toggle_closed">
+            <i class="icon icon_menu icon_menu_closed"></i>
+        </button>
     </div>
 
     <div class="row">
 
-        <div class="site-navigation">
+        <nav class="site-navigation site-navigation_mobile_active">
+
+            <div class="logo site-navigation_mobile_logo"></div>
 
             <div class="row row_size_large">
+
 
                 <ul class="site-navigation__list">
 
@@ -105,7 +111,37 @@
 
             </div>
 
-        </div>
+            <div class="site-navigation__contacts contacts">
+    
+                <div class="contacts__telephone">
+    
+                    <div class="contacts__icon">
+                        <i class="icon icon_contacts icon_contacts_telephone"></i>
+                    </div>
+                    <p class="
+                        contacts__text
+                        contacts__text_padding_left">
+                        8 800 686 5555
+                    </p>
+    
+                </div>
+    
+                <div class="contacts__mail">
+    
+                    <div class="contacts__icon">
+                        <i class="icon icon_contacts icon_contacts_mail"></i>
+                    </div>
+                    <p class="
+                        contacts__text
+                        contacts__text_padding_left">
+                        maxinfo@gmail.com
+                    </p>
+    
+                </div>
+    
+            </div>
+
+        </nav>
 
     </div>
 

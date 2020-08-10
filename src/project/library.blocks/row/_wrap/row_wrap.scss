@@ -1,0 +1,9 @@
+.row_wrap {
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: $tableWidth ) {
+    .row_wrap_table-width {
+        flex-wrap: wrap;
+    }
+}

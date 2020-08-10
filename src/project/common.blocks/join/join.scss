@@ -1,0 +1,33 @@
+.join {
+    
+}
+
+@media screen and (max-width: $desktopWidth) {
+    .join {
+        order: 1;
+    }
+}
+
+@media screen and (max-width: $smDesktopWidth) {
+    .join {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: $tableWidth) {
+    .join {
+        margin-left: 20px;
+        margin-right: 70px;
+    }
+}
+
+
+@media screen and (max-width: $phoneWidth) {
+    .join {
+        margin-left: 0;
+        margin-right: 40px;
+    }
+}
+
+@import "./__button/join__button.scss";
+@import "./__text/join__text.scss";
