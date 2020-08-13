@@ -1,0 +1,21 @@
+.news {
+
+}
+
+.news__content {
+  width: 100%;
+  padding: 0 110px;
+}
+
+.news__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.news__item {
+  width: 40%;
+}
+
+.news__card {
+}
