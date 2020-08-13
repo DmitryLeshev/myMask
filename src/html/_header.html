@@ -4,13 +4,21 @@
 
         <div class="header__logo logo"></div>
 
-        <div class="search">
+        <div 
+            class="search"
+            data-type="search">
 
-            <input class="search__input" type="text" placeholder="Поиск по сайту">
+            <input 
+                class="search__input" 
+                data-type="search__input"
+                type="text" 
+                placeholder="Поиск по сайту">
 
-            <button class="search__button">
+            <button 
+                class="search__button"
+                data-type="search__button">
 
-                <i class="search__icon"></i>
+                <i class="search__icon" data-type="search__icon"></i>
         
             </button>
 
@@ -60,18 +68,22 @@
 
         </div>
 
-        <button class="site-navigation__toggle site-navigation__toggle_closed">
-            <i class="icon icon_menu icon_menu_closed"></i>
+        <button 
+            class="site-navigation__toggle site-navigation__toggle_closed"
+            data-type="site-navigation__toggle">
+            <i class="icon icon_menu icon_menu_closed" data-type="icon_menu"></i>
         </button>
     </div>
 
     <div class="row">
 
-        <nav class="site-navigation site-navigation_mobile_active">
+        <nav 
+            class="site-navigation"
+            data-type="site-navigation">
 
             <div class="logo site-navigation_mobile_logo"></div>
 
-            <div class="row row_size_large">
+            <div class="row row_size_large row_size_mobile-menu">
 
 
                 <ul class="site-navigation__list">

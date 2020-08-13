@@ -4,6 +4,8 @@
     display: flex;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1); 
     border-radius: 5px;
+
+    overflow: hidden;
 }
 
 @media screen and (max-width: $smDesktopWidth) {

@@ -1,0 +1,19 @@
+
+.search__input_open {
+
+}
+
+
+@media screen and (max-width: $smDesktopWidth) {
+    .search__input_open {        
+        padding: 15px 0;
+        padding-left: 20px;
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: $tableWidth ) {
+    .search__input_open {
+        width: 100%;
+    }
+}

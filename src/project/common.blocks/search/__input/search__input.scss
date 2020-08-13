@@ -14,14 +14,21 @@
 
 @media screen and (max-width: $smDesktopWidth) {
     .search__input {
-        display: none;
+        width: 0;
+        margin: 0;
+        padding: 0;
     }
 }
 
 @media screen and (max-width: $tableWidth ) {
     .search__input {
+        padding: 15px 0;
+        padding-left: 20px;
         width: 100%;
         height: 30px;
         display: block;
+        transition: none;
     }
 }
+
+@import "./_open/search__input_open.scss";
