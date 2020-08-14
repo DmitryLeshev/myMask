@@ -1,0 +1,18 @@
+.news__card {
+    padding-bottom: 15px;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 3px 13px -2px #DDDDDD;
+  
+    transition: .3s;
+    overflow: hidden;
+}
+
+.news__card:hover {
+    box-shadow: 0px 3px 13px -2px #acacac;
+    transform: scale3d(2);
+}
+  
+.news__card:hover .card__image {
+    transition: .3s;
+    border-color: #36A9E1;
+}

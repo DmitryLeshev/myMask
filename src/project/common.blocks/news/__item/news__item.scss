@@ -1,0 +1,10 @@
+.news__item {
+    width: 45%;
+    margin-bottom: 56px;
+}
+
+@media screen and (max-width: $tableWidth) {
+    .news__item {
+        width: 100%;
+    }
+}

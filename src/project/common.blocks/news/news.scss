@@ -1,21 +1,8 @@
 .news {
-
+  padding-bottom: 90px;
 }
 
-.news__content {
-  width: 100%;
-  padding: 0 110px;
-}
-
-.news__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.news__item {
-  width: 40%;
-}
-
-.news__card {
-}
+@import "./__card/news__card.scss";
+@import "./__content/news__content.scss";
+@import "./__item/news__item.scss";
+@import "./__list/news__list.scss";
