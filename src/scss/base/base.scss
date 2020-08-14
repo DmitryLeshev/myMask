@@ -49,3 +49,24 @@ img {
     padding: 0 80px;
     max-width: 1440px;
 }
+
+.simplebar-scrollbar::before {
+    background-color: #415276;
+}
+
+.partners__list::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.partners__list::-webkit-scrollbar-track {
+    background-color: #F2F6FC;
+    border-radius: 5px;
+}
+
+.partners__list::-webkit-scrollbar-thumb {
+    background: url("../../assets/png/scrollbar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
