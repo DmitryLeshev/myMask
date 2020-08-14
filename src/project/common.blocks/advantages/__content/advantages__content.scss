@@ -13,19 +13,19 @@
 }
 
 @media screen and (max-width: $smDesktopWidth) {
-    .advantages__content {
-        
-    }
+    .advantages__content {}
 }
 
-@media screen and (max-width: $tableWidth ) {
+@media screen and (max-width: $tableWidth) {
     .advantages__content {
-        padding-bottom: 110px; 
+        padding-top: 20px;
+        padding-bottom: 135px;
+        width: 85%;
     }
 }
 
 @media screen and (max-width: $phoneWidth) {
     .advantages__content {
-        
+        padding-bottom: 70px;
     }
 }
