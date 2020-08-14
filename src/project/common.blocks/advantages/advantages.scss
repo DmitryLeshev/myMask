@@ -2,41 +2,10 @@
     position: relative;
 }
 
-.advantages__title {
-    margin-bottom: 150px;
-}
 
-.advantages__envelope {
-    flex-direction: column;
-    background-image: url("../../../assets/svg/envelope.svg");
-    background-position: 50% -50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.advantages__content {
-    position: relative;
-    margin: 0 auto;
-    padding-bottom: 215px;
-    width: 80%;
-}
-
-.advantages__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    flex-basis: 33%;
-
-}
-
-.advantages__item {
-    padding-bottom: 70px;
-    padding-left: 50px;
-    width: 280px;
-}
-
-.advantages__card {
-    position: relative;
-}
-
+@import "./__card/advantages__card.scss";
+@import "./__content/advantages__content.scss";
+@import "./__envelope/advantages__envelope.scss";
+@import "./__item/advantages__item.scss";
+@import "./__list/advantages__list.scss";
+@import "./__title/advantages__title.scss";
