@@ -3,6 +3,37 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    flex-basis: 33%;
+}
 
+@media screen and (max-width: $desktopWidth) {
+    .advantages__list {
+        padding-top: 15px;
+
+    }
+}
+
+@media screen and (max-width: $smDesktopWidth) {
+    .advantages__list {
+        display: flex;
+        flex-wrap: nowrap;
+
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+
+        overflow: hidden;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: $tableWidth ) {
+    .advantages__list {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .advantages__list {
+        text-align: center;
+    }
 }

@@ -1,0 +1,9 @@
+.advantages__icon {
+
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .advantages__icon {
+        display: none;
+    }
+}

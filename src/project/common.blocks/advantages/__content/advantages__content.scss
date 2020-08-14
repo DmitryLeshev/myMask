@@ -2,5 +2,30 @@
     position: relative;
     margin: 0 auto;
     padding-bottom: 215px;
-    width: 80%;
+    width: 85%;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: $desktopWidth) {
+    .advantages__content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: $smDesktopWidth) {
+    .advantages__content {
+        
+    }
+}
+
+@media screen and (max-width: $tableWidth ) {
+    .advantages__content {
+        padding-bottom: 110px; 
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .advantages__content {
+        
+    }
 }

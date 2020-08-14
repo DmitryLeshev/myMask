@@ -1,7 +1,48 @@
 .advantages__envelope {
-    flex-direction: column;
+    position: absolute;
+    width: 1380px;
+    height: 860px;
+    top: 85px;
+    left: -70px;
+    z-index: -1;
     background-image: url("../../../assets/svg/envelope.svg");
-    background-position: 50% -50%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 180px;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: $desktopWidth) {
+    .advantages__envelope {
+        width: 1020px;
+        height: 670px;
+        left: -50px;
+        background-size: contain;
+
+    }
+}
+
+@media screen and (max-width: $smDesktopWidth) {
+    .advantages__envelope {
+        width: 820px;
+        height: 570px;
+        left: -40px;
+    }
+}
+
+@media screen and (max-width: $tableWidth ) {
+    .advantages__envelope {
+        width: 500px;
+        height: 290px;
+        left: -30px;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .advantages__envelope {
+        width: 320px;
+        height: 200px;
+        left: -14px;
+    }
 }
