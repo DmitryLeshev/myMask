@@ -1,6 +1,4 @@
-.partners {
-
-}
+.partners {}
 
 .partners__title {
     display: block;
@@ -8,10 +6,21 @@
     margin-bottom: 40px;
 }
 
+@media screen and (max-width: $tableWidth) {
+    .partners__title {
+        margin-top: 40px;
+    }
+}
+
 .partners__content {
     width: 100%;
-
     margin-bottom: 120px;
+}
+
+@media screen and (max-width: $smDesktopWidth) {
+    .partners__content {
+        margin-bottom: 50px;
+    }
 }
 
 .partners__list {

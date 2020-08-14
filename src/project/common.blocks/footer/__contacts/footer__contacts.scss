@@ -2,3 +2,9 @@
     font-size: 14px;
     line-height: 16px;
 }
+
+@media screen and (max-width: $phoneWidth) {
+    .footer__contacts {
+        margin: 0 auto;
+    }
+}

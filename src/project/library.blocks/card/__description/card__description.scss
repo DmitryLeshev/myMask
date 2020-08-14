@@ -7,16 +7,23 @@
     color: $card_text_color;
 }
 
-@media screen and (max-width: $tableWidth) {
+@media screen and (max-width: $smDesktopWidth) {
     .card__description {
         font-size: 12px;
-        line-height: 16px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: $tableWidth) {
+    .card__description {
+        font-size: 10px;
+        line-height: 12px;
     }
 }
 
 @media screen and (max-width: $phoneWidth) {
     .card__description {
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 10px;
+        line-height: 12px;
     }
 }

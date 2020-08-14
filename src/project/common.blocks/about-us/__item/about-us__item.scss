@@ -1,5 +1,17 @@
-
 .about-us__item {
     width: 40%;
     padding-left: 20px;
+}
+
+@media screen and (max-width: $tableWidth) {
+    .about-us__item {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .about-us__item {
+        width: 100%;
+        text-align: center;
+    }
 }

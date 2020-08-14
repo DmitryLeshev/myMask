@@ -1,0 +1,14 @@
+.footer__logo {}
+
+@media screen and (max-width: $tableWidth) {
+    .footer__logo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .footer__logo {
+        width: 100%;
+    }
+}

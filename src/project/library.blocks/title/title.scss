@@ -4,6 +4,20 @@
     color: #404448;
 }
 
+@media screen and (max-width: $tableWidth) {
+    .title_h2 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .title_h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
 .title_h3 {
     font-size: 14px;
     line-height: 16px;

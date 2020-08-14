@@ -1,6 +1,18 @@
-.contacts {
-    
+.contacts {}
+
+@media screen and (max-width: $tableWidth) {
+    .contacts {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .contacts {
+        width: 45%;
+    }
 }
 
 @import "./__icon/contacts__icon.scss";
 @import "./__text/contacts__text.scss";
+@import "./__media/contacts__media.scss";

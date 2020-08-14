@@ -1,6 +1,11 @@
 .about-us__link {
     display: block;
     padding: 10px 0;
-
     @include link-fonts;
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .about-us__link {
+        padding: 5px 0;
+    }
 }

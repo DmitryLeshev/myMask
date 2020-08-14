@@ -1,0 +1,7 @@
+.contacts__media {}
+
+@media screen and (max-width: $phoneWidth) {
+    .contacts__media {
+        text-align: center;
+    }
+}

@@ -1,34 +1,30 @@
 .news {
-  position: relative;
-  padding-bottom: 90px;
-  transition: 0.3s;
+    position: relative;
+    padding-bottom: 90px;
+    transition: 0.3s;
 }
 
-
 @media screen and (max-width: $desktopWidth) {
-  .news {
-    top: -130px;
-    padding-bottom: 0;
-
-  }
+    .news {
+        top: -130px;
+        padding-bottom: 0;
+    }
 }
 
 @media screen and (max-width: $smDesktopWidth) {
-  .news {
-    top: -20px;
-  }
+    .news {
+        top: -20px;
+    }
 }
 
-@media screen and (max-width: $tableWidth ) {
-  .news {
-      
-  }
+@media screen and (max-width: $tableWidth) {
+    .news {}
 }
 
 @media screen and (max-width: $phoneWidth) {
-  .news {
-    top: -20px;
-  }
+    .news {
+        top: -20px;
+    }
 }
 
 @import "./__card/news__card.scss";
@@ -36,3 +32,4 @@
 @import "./__item/news__item.scss";
 @import "./__list/news__list.scss";
 @import "./__title/news__title.scss";
+@import "./__image/news__image.scss";

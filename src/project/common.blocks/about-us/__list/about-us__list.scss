@@ -3,6 +3,17 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
     @include reset-list;
+}
+
+@media screen and (max-width: $tableWidth) {
+    .about-us__list {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .about-us__list {
+        width: 100%;
+    }
 }

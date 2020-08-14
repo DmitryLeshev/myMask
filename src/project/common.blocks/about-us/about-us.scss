@@ -2,7 +2,18 @@
     width: 40%;
 }
 
+@media screen and (max-width: $tableWidth) {
+    .about-us {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .about-us {
+        width: 100%;
+    }
+}
+
 @import "./__list/about-us__list.scss";
 @import "./__item/about-us__item.scss";
 @import "./__link/about-us__link.scss";
-
