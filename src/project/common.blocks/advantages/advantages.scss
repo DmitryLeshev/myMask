@@ -2,6 +2,52 @@
     position: relative;
 }
 
+.advantages__btn {
+    position: absolute;
+    display: none;
+}
+
+@media screen and (max-width: $smDesktopWidth) {
+    .advantages__btn {
+        position: absolute;
+        top: 100px;
+        display: block;
+        width: 25px;
+        height: 25px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 1px 1px 2px 1px rgba($color: #000000, $alpha: .09);
+        cursor: pointer;
+    }
+    .advantages__btn_next {
+        right: 0;
+        background-image: url("../../../assets/svg/arrow_next_blue.svg");
+    }
+    .advantages__btn_back {
+        left: 0;
+        background-image: url("../../../assets/svg/arrow_back_blue.svg");
+    }
+}
+
+@media screen and (max-width: $tableWidth) {
+    .advantages__btn {
+        top: 30px;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .advantages__btn {
+        top: 45px;
+    }
+    .advantages__btn_next {
+        right: -20px;
+    }
+    .advantages__btn_back {
+        left: -20px;
+    }
+}
 
 @import "./__card/advantages__card.scss";
 @import "./__content/advantages__content.scss";

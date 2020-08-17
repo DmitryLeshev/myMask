@@ -3,6 +3,14 @@
     padding-left: 20px;
 }
 
+.about-us__item:hover .about-us__link {
+    opacity: 0.8;
+}
+
+.about-us__item:active .about-us__link {
+    opacity: 0.6;
+}
+
 @media screen and (max-width: $tableWidth) {
     .about-us__item {
         padding: 0;

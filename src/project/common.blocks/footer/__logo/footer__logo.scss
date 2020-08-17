@@ -3,12 +3,18 @@
 @media screen and (max-width: $tableWidth) {
     .footer__logo {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
 }
 
 @media screen and (max-width: $phoneWidth) {
     .footer__logo {
         width: 100%;
+        margin-bottom: 60px;
     }
 }

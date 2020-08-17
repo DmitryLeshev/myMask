@@ -13,13 +13,58 @@
     transition: 0.3s;
 }
 
+.envelope__triangle_right {
+    position: absolute;
+    bottom: -30px;
+    right: 22px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-left: 47px solid rgba(70, 94, 168, 0.4);
+    border-bottom: 70px solid transparent;
+}
+
+.envelope__triangle_left {
+    position: absolute;
+    bottom: -30px;
+    left: 22px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-right: 47px solid rgba(70, 94, 168, 0.4);
+    border-bottom: 70px solid transparent;
+}
+
 @media screen and (max-width: $desktopWidth) {
     .advantages__envelope {
         width: 1020px;
         height: 670px;
         left: -50px;
         background-size: contain;
-
+    }
+    .envelope__triangle_right {
+        position: absolute;
+        bottom: 2px;
+        right: 17px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 22px solid transparent;
+        border-left: 32px solid rgba(70, 94, 168, 0.4);
+        border-bottom: 43px solid transparent;
+    }
+    .envelope__triangle_left {
+        position: absolute;
+        bottom: 2px;
+        left: 17px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 22px solid transparent;
+        border-right: 32px solid rgba(70, 94, 168, 0.4);
+        border-bottom: 43px solid transparent;
     }
 }
 
@@ -29,13 +74,57 @@
         height: 570px;
         left: -40px;
     }
+    .envelope__triangle_right {
+        position: absolute;
+        bottom: 23px;
+        right: 14px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 16px solid transparent;
+        border-left: 24px solid rgba(70, 94, 168, 0.4);
+        border-bottom: 30px solid transparent;
+    }
+    .envelope__triangle_left {
+        position: absolute;
+        bottom: 23px;
+        left: 14px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 16px solid transparent;
+        border-right: 24px solid rgba(70, 94, 168, 0.4);
+        border-bottom: 30px solid transparent;
+    }
 }
 
-@media screen and (max-width: $tableWidth ) {
+@media screen and (max-width: $tableWidth) {
     .advantages__envelope {
         width: 500px;
         height: 290px;
         left: -30px;
+    }
+    .envelope__triangle_right {
+        position: absolute;
+        bottom: -1px;
+        right: 25px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-left: 6px solid rgba(70, 94, 168, 0.4);
+        border-bottom: 13px solid transparent;
+    }
+    .envelope__triangle_left {
+        position: absolute;
+        bottom: -1px;
+        left: 25px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-right: 6px solid rgba(70, 94, 168, 0.4);
+        border-bottom: 13px solid transparent;
     }
 }
 
@@ -44,5 +133,27 @@
         width: 320px;
         height: 200px;
         left: -14px;
+    }
+    .envelope__triangle_right {
+        position: absolute;
+        bottom: -4px;
+        right: 6px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-left: 7px solid rgba(70, 94, 168, 0.4);
+        border-bottom: 13px solid transparent;
+    }
+    .envelope__triangle_left {
+        position: absolute;
+        bottom: -4px;
+        left: 6px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-right: 7px solid rgba(70, 94, 168, 0.4);
+        border-bottom: 13px solid transparent;
     }
 }

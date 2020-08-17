@@ -13,8 +13,8 @@ const siteNavigationToggle = () => {
         iconMenuClosed: 'icon_menu_closed'
     };
 
-    const toSwitch = ( el, cls ) => el.classList.toggle(cls);
-    const togleIcon = ( el, clsActive, clsClosed ) => {
+    const toSwitch = (el, cls) => el.classList.toggle(cls);
+    const togleIcon = (el, clsActive, clsClosed) => {
         if (el.classList.contains(clsActive)) {
             el.classList.remove(clsActive);
             el.classList.add(clsClosed);
@@ -30,5 +30,4 @@ const siteNavigationToggle = () => {
     };
 
 }
-
-export { siteNavigationToggle };
+siteNavigationToggle();

@@ -3,6 +3,19 @@
     padding: 10px 0;
     font-size: 14px;
     line-height: 16px;
+    cursor: pointer;
+}
+
+.contacts__media:hover,
+.contacts__telephone:hover,
+.contacts__mail:hover {
+    opacity: 0.8;
+}
+
+.contacts__media:active,
+.contacts__mail:active,
+.contacts__telephone:active {
+    opacity: 0.6;
 }
 
 @import "./_bold/contacts__text_bold.scss";
