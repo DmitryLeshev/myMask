@@ -10,7 +10,14 @@
     
     border: none;
     outline: none;
+
+    cursor: pointer;
 }
+
+.search__button:hover {
+  
+}
+
 
 @media screen and (max-width: $smDesktopWidth) {
     .search__button {

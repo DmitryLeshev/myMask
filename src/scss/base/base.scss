@@ -9,12 +9,22 @@
 
 
 img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .page {
     position: relative;
-
+    
+    min-width: 320px;
+    
     margin: 0;
     padding: 0;
 

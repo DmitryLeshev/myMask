@@ -32,5 +32,3 @@ const siteNavigationToggle = () => {
 }
 
 export { siteNavigationToggle };
-
-

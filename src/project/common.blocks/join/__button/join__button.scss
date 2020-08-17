@@ -5,6 +5,17 @@
     border-radius: 5px;
     border: none;
     outline: none;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.join__button:hover {
+  background: linear-gradient(358.15deg, #3a4e8a 0.52%, #2b448f 97.4%);
+}
+
+.join__button:active {
+  background: linear-gradient(358.15deg, #324479 0.52%, #243977 97.4%);
 }
 
 @media screen and (max-width: $tableWidth) {

@@ -5,4 +5,15 @@
     border-radius: 5px;
     border: none;
     outline: none;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-contacts__button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header-contacts__button:active {
+  background-color: rgba(0, 0, 0, 0.3);
 }

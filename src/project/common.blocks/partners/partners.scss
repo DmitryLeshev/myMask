@@ -35,6 +35,12 @@
     margin-left: 20px;
 }
 
+.partners__item:hover .partners__image {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+
 .partners__item_order_first {
     margin-left: 0;
 }
@@ -46,10 +52,8 @@
 }
 
 .partners__image {
+    display: block;
+    
     width: 220px;
     height: 124px;
-    background-image: url("../../../assets/png/partners_1.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }

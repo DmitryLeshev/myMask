@@ -3,12 +3,15 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    // width: 100%;
+
+    overflow: hidden;
 
     margin: 0;
     padding: 10px 0;
     list-style: none;
 }
+
+
 
 @import "./_decorative-strip/site-navigation__item_decorative-strip.scss";
 @import "./_order/site-navigation__item_order_first.scss";

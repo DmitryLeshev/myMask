@@ -1,11 +1,6 @@
 .logo {
     width: 240px;
     height: 95px;
-
-    background-image: url("../../../assets/png/logo_desctop.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
 }
 
 @media screen and (max-width: $tableWidth) {
