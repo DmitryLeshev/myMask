@@ -4,11 +4,11 @@
 }
 
 .about-us__item:hover .about-us__link {
-    opacity: 0.8;
+    color: #36A9E1;
 }
 
 .about-us__item:active .about-us__link {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: $tableWidth) {

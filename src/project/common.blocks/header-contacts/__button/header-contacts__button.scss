@@ -1,19 +1,18 @@
 .header-contacts__button {
     padding: 15px 20px;
-    
-    background-color: rgba(0, 0, 0, 0.1);
+    background: linear-gradient(113.2deg, #EEF9FF 29.33%, #E2F1FE 98.7%);
     border-radius: 5px;
-    border: none;
+    border: 1px solid #BFDDFF;
     outline: none;
-
     cursor: pointer;
     transition: 0.3s;
 }
 
 .header-contacts__button:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(113.2deg, #e5f2fa 29.33%, #d7eafc 98.7%);
 }
 
 .header-contacts__button:active {
-  background-color: rgba(0, 0, 0, 0.3);
+    background: linear-gradient(113.2deg, #d9ebf7 29.33%, #d1e8fd 98.7%);
 }

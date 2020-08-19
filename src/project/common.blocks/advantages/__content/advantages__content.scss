@@ -1,5 +1,6 @@
 .advantages__content {
     position: relative;
+    z-index: 2;
     margin: 0 auto;
     padding-bottom: 215px;
     width: 85%;
@@ -13,12 +14,14 @@
 }
 
 @media screen and (max-width: $smDesktopWidth) {
-    .advantages__content {}
+    .advantages__content {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: $tableWidth) {
     .advantages__content {
-        padding-top: 20px;
+        padding-top: 58px;
         padding-bottom: 135px;
         width: 85%;
     }
@@ -26,6 +29,8 @@
 
 @media screen and (max-width: $phoneWidth) {
     .advantages__content {
+        width: 100%;
+        padding-top: 22px;
         padding-bottom: 70px;
     }
 }

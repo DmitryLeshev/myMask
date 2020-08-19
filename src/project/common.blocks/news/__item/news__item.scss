@@ -1,9 +1,27 @@
 .news__item {
-    width: 45%;
+    width: 35%;
     margin-bottom: 56px;
 }
 
+@media screen and (max-width: $desktopWidth) {
+    .news__item {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: $smDesktopWidth) {
+    .news__item {
+        width: 45%;
+    }
+}
+
 @media screen and (max-width: $tableWidth) {
+    .news__item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
     .news__item {
         width: 100%;
     }

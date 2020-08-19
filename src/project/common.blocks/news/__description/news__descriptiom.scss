@@ -1,3 +1,13 @@
+.news__description {
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 55px;
+}
+
 @media screen and (max-width: $smDesktopWidth) {
     .news__description {
         display: none;

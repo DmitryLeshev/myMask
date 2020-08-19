@@ -2,4 +2,12 @@
     position: relative;
     min-width: 100%;
     border-bottom: 7px solid #DDDDDD;
+    object-fit: cover;
+    height: 300;
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .news__image {
+        height: 160;
+    }
 }

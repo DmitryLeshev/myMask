@@ -1,7 +1,13 @@
 .news__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: $desktopWidth) {
+    .news__list {
+        justify-content: space-between;
+    }
 }
 
 @media screen and (max-width: $tableWidth) {

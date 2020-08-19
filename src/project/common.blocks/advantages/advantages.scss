@@ -23,11 +23,11 @@
     }
     .advantages__btn_next {
         right: 0;
-        background-image: url("../../../assets/svg/arrow_next_blue.svg");
+        background-image: url("/assets/svg/arrow_next_blue.svg");
     }
     .advantages__btn_back {
         left: 0;
-        background-image: url("../../../assets/svg/arrow_back_blue.svg");
+        background-image: url("/assets/svg/arrow_back_blue.svg");
     }
 }
 
@@ -56,3 +56,4 @@
 @import "./__list/advantages__list.scss";
 @import "./__title/advantages__title.scss";
 @import "./__icon/advantages__icon.scss";
+@import "./__slider/advantages__slider.scss";

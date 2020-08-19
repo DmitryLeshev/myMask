@@ -9,13 +9,13 @@
 .contacts__media:hover,
 .contacts__telephone:hover,
 .contacts__mail:hover {
-    opacity: 0.8;
+    color: #36A9E1;
 }
 
 .contacts__media:active,
 .contacts__mail:active,
 .contacts__telephone:active {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 @import "./_bold/contacts__text_bold.scss";

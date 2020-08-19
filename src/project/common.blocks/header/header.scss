@@ -1,26 +1,19 @@
 .header {
     position: relative;
-
     padding-top: 20px;
-
-    background-image: url("../../../assets/png/bg_header.png");
+    background-image: url("/assets/png/bg_header2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-
-
 .info {
     padding: 5px 10px;
-
     width: 320px;
     height: 105px;
-
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
-
     overflow-y: auto
 }
 
@@ -30,14 +23,11 @@
 
 .lates-news__link {
     font-family: 'Roboto Slab', serif;
-
     display: block;
-
     font-size: 13px;
     line-height: 17px;
     color: #36A9E1;
     text-decoration: none;
-
     opacity: 0.8;
 }
 

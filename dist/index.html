@@ -5,376 +5,387 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <title>Boilerplate</title>
-    <link href="./assets/css/styles.css" rel="stylesheet">
-</head>
+    <title>MAKC</title>
+<link href="./assets/css/styles.css" rel="stylesheet"></head>
 
 <body class="page">
 
     <header class="header">
 
-        <div class="row row_size_large row_wrap_table-width">
+    <div class="row row_size_large row_wrap_table-width">
 
-            <div class="header__logo logo">
-                <a href="#">
-                    <img src="./assets/svg/logo.svg" alt="МАКС">
-                </a>
-            </div>
+        <div class="header__logo logo">
+            <a href="#">
+                <img src="/assets/svg/logo.svg" alt="МАКС">
+            </a>
+        </div>
 
-            <div class="search" data-type="search">
+        <div class="search" data-type="search">
 
-                <input class="search__input" data-type="search__input" type="text" placeholder="Поиск по сайту">
+            <input class="search__input" data-type="search__input" type="text" placeholder="Поиск по сайту">
 
-                <button class="search__button" data-type="search__button">
+            <button class="search__button" data-type="search__button">
 
                 <i class="search__icon" data-type="search__icon"></i>
         
             </button>
 
-            </div>
+        </div>
 
-            <div class="join">
-                <button class="join__button">
+        <div class="join">
+            <button class="join__button">
                 <span class="join__text">
                     Вступить в МАКС
                 </span>
             </button>
-            </div>
+        </div>
 
-            <div class="header-contacts">
-                <button class="header-contacts__button">
+        <div class="header-contacts">
+            <button class="header-contacts__button">
                 <span class="header-contacts__text">
                     Контакты
                 </span>
             </button>
-            </div>
+        </div>
 
-            <div class="info header__info">
+        <div class="info header__info">
 
-                <div class="info__lates-news">
+            <div class="info__lates-news">
 
-                    <a href="" class="lates-news__link">
+                <a href="" class="lates-news__link">
                     Последние новости:
                 </a>
 
-                </div>
+            </div>
 
-                <div class="info__time">
+            <div class="info__time">
 
-                    <span class="time__text">
+                <span class="time__text">
                     31.07.2021
                 </span>
 
-                </div>
+            </div>
 
-                <div class="info__article">
+            <div class="info__article">
 
-                    <span class="article__text">
+                <span class="article__text">
                     Подводим итоги всеросийского съезда курьерских служб, который состоялся 22 июня в Москве. Мероприятие посетили... 
                 </span>
 
+            </div>
+
+        </div>
+
+        <button class="site-navigation__toggle site-navigation__toggle_closed" data-type="site-navigation__toggle">
+            <i class="icon icon_menu icon_menu_closed" data-type="icon_menu"></i>
+        </button>
+    </div>
+
+    <div class="row">
+
+        <nav class="site-navigation" data-type="site-navigation">
+
+            <div class="logo site-navigation_mobile_logo"></div>
+
+            <div class="row row_size_large row_size_mobile-menu">
+
+
+                <ul class="site-navigation__list">
+
+                    <li class="site-navigation__item 
+                        site-navigation__item_decorative-strip
+                        site-navigation__item_first">
+                        <a class="site-navigation__link site-navigation__item_first" href="#">О МАКС</a>
+                    </li>
+
+                    <li class="site-navigation__item site-navigation__item_decorative-strip">
+                        <a class="site-navigation__link" href="#">Членство</a>
+                    </li>
+
+                    <li class="site-navigation__item site-navigation__item_decorative-strip">
+                        <a class="site-navigation__link" href="#">Мероприятия</a>
+                    </li>
+
+                    <li class="site-navigation__item site-navigation__item_decorative-strip">
+                        <a class="site-navigation__link" href="#">Аналитика</a>
+                    </li>
+
+                    <li class="site-navigation__item site-navigation__item_decorative-strip">
+                        <a class="site-navigation__link" href="#">Медиа</a>
+                    </li>
+
+                    <li class="site-navigation__item site-navigation__item_decorative-strip">
+                        <a class="site-navigation__link" href="#">Экспертиза</a>
+                    </li>
+
+                    <li class="site-navigation__item
+                        site-navigation__item_last">
+                        <a class="site-navigation__link" href="#">Покупателям</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="site-navigation__contacts contacts">
+
+                <div class="contacts__telephone">
+
+                    <div class="contacts__icon">
+                        <i class="icon icon_contacts icon_contacts_telephone"></i>
+                    </div>
+                    <p class="
+                        contacts__text
+                        contacts__text_padding_left">
+                        8 800 686 5555
+                    </p>
+
+                </div>
+
+                <div class="contacts__mail">
+
+                    <div class="contacts__icon">
+                        <i class="icon icon_contacts icon_contacts_mail"></i>
+                    </div>
+                    <p class="
+                        contacts__text
+                        contacts__text_padding_left">
+                        maxinfo@gmail.com
+                    </p>
+
                 </div>
 
             </div>
 
-            <button class="site-navigation__toggle site-navigation__toggle_closed" data-type="site-navigation__toggle">
-            <i class="icon icon_menu icon_menu_closed" data-type="icon_menu"></i>
-        </button>
-        </div>
+        </nav>
 
-        <div class="row">
+    </div>
 
-            <nav class="site-navigation" data-type="site-navigation">
-
-                <div class="logo site-navigation_mobile_logo"></div>
-
-                <div class="row row_size_large row_size_mobile-menu">
-
-
-                    <ul class="site-navigation__list">
-
-                        <li class="site-navigation__item 
-                        site-navigation__item_decorative-strip
-                        site-navigation__item_first">
-                            <a class="site-navigation__link site-navigation__item_first" href="#">О МАКС</a>
-                        </li>
-
-                        <li class="site-navigation__item site-navigation__item_decorative-strip">
-                            <a class="site-navigation__link" href="#">Членство</a>
-                        </li>
-
-                        <li class="site-navigation__item site-navigation__item_decorative-strip">
-                            <a class="site-navigation__link" href="#">Мероприятия</a>
-                        </li>
-
-                        <li class="site-navigation__item site-navigation__item_decorative-strip">
-                            <a class="site-navigation__link" href="#">Аналитика</a>
-                        </li>
-
-                        <li class="site-navigation__item site-navigation__item_decorative-strip">
-                            <a class="site-navigation__link" href="#">Медиа</a>
-                        </li>
-
-                        <li class="site-navigation__item site-navigation__item_decorative-strip">
-                            <a class="site-navigation__link" href="#">Экспертиза</a>
-                        </li>
-
-                        <li class="site-navigation__item
-                        site-navigation__item_last">
-                            <a class="site-navigation__link" href="#">Покупателям</a>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-                <div class="site-navigation__contacts contacts">
-
-                    <div class="contacts__telephone">
-
-                        <div class="contacts__icon">
-                            <i class="icon icon_contacts icon_contacts_telephone"></i>
-                        </div>
-                        <p class="
-                        contacts__text
-                        contacts__text_padding_left">
-                            8 800 686 5555
-                        </p>
-
-                    </div>
-
-                    <div class="contacts__mail">
-
-                        <div class="contacts__icon">
-                            <i class="icon icon_contacts icon_contacts_mail"></i>
-                        </div>
-                        <p class="
-                        contacts__text
-                        contacts__text_padding_left">
-                            maxinfo@gmail.com
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </nav>
-
-        </div>
-
-    </header>
-
+</header>
 
     <main class="main">
 
-        <section class="preview">
+    <section class="preview">
 
 
-            <div class="preview__slider slider">
-                <div class="slider__content">
+    <div class="preview__slider slider">
+        <div class="slider__content">
 
 
-                    <div class="slider__item">
+            <div class="slider__item">
 
-                        <div class="slider__img">
+                <div class="slider__img">
 
-                            <!-- <img src="../assets/img/baner_1.jpg" alt="baner"> -->
-                        </div>
+                </div>
 
-                        <div class="slider__text">
-                            <div class="row row_size_large">
-                                <h1 class="preview__title">
-                                    Первое в России профессионально сообщество курьерских служб &nbsp;
-                                </h1>
+                <div class="slider__text">
+                    <div class="row row_size_large">
+                        <h1 class="preview__title">
+                            Первое в России профессионально сообщество курьерских служб &nbsp;
+                        </h1>
 
-                            </div>
-                            <div class="row row_size_large">
-                                <p class="preview__text">
-                                    Объединяем усилия предпринимателей отрасли и обеспечиваем благоприятные условия для развития услуг курьерской доставки
-                                </p>
-                            </div>
-                        </div>
                     </div>
-
-                    <div class="slider__item">
-
-                        <div class="slider__img">
-
-                            <!-- <img src="../assets/img/baner_1.jpg" alt="baner"> -->
-                        </div>
-
-                        <div class="slider__text">
-                            <div class="row row_size_large">
-                                <h1 class="preview__title">
-                                    Первое в России профессионально сообщество курьерских служб &nbsp;
-                                </h1>
-
-                            </div>
-                            <div class="row row_size_large">
-                                <p class="preview__text">
-                                    Объединяем усилия предпринимателей отрасли и обеспечиваем благоприятные условия для развития услуг курьерской доставки
-                                </p>
-                            </div>
-                        </div>
+                    <div class="row row_size_large">
+                        <p class="preview__text">
+                            Объединяем усилия предпринимателей отрасли и обеспечиваем благоприятные условия для развития услуг курьерской доставки
+                        </p>
                     </div>
-
-                    <div class="slider__item">
-
-                        <div class="slider__img">
-
-                            <!-- <img src="../assets/img/baner_1.jpg" alt="baner"> -->
-                        </div>
-
-                        <div class="slider__text">
-                            <div class="row row_size_large">
-                                <h1 class="preview__title">
-                                    Первое в России профессионально сообщество курьерских служб &nbsp;
-                                </h1>
-
-                            </div>
-                            <div class="row row_size_large">
-                                <p class="preview__text">
-                                    Объединяем усилия предпринимателей отрасли и обеспечиваем благоприятные условия для развития услуг курьерской доставки
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
 
+            <div class="slider__item">
 
-        </section>
+                <div class="slider__img">
 
-
-        <section class="partners">
-            <div class="row row_size_large">
-                <h2 class="partners__title title_h2 text text_uppercase text_decoration_strip">
-                    Члены Ассоциации
-                </h2>
-            </div>
-
-            <div class="row row_size_large">
-                <div class="partners__content slider-partners">
-
-                    <ul class="partners__list">
-                        <li class="partners__item partners__item_order_first">
-                            <div class="partners__card card">
-                                <a class="partners__image" href="#">
-
-                                    <img class="image-center" src="./assets/png/partner_1.png" alt="partner">
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="partners__item">
-                            <div class="partners__card card">
-                                <a class="partners__image" href="#">
-
-                                    <img class="image-center" src="./assets/png/partner_2.png" alt="partner">
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="partners__item">
-                            <div class="partners__card card">
-                                <a class="partners__image" href="#">
-
-                                    <img class="image-center" src="./assets/png/partner_3.png" alt="partner">
-                                </a>
-
-                            </div>
-                        </li>
-
-                        <li class="partners__item">
-                            <div class="partners__card card">
-                                <a class="partners__image" href="#">
-
-                                    <img class="image-center" src="./assets/png/partner_4.png" alt="partner">
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="partners__item">
-                            <div class="partners__card card">
-                                <a class="partners__image" href="#">
-
-                                    <img class="image-center" src="./assets/png/partner_5.png" alt="partner">
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="partners__item">
-                            <div class="partners__card card">
-                                <a class="partners__image" href="#">
-
-                                    <img class="image-center" src="./assets/png/partner_1.png" alt="partner">
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="partners__item">
-                            <div class="partners__card card">
-                                <a class="partners__image" href="#">
-
-                                    <img class="image-center" src="./assets/png/partner_2.png" alt="partner">
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="partners__item">
-                            <div class="partners__card card">
-                                <a class="partners__image" href="#">
-
-                                    <img class="image-center" src="./assets/png/partner_3.png" alt="partner">
-                                </a>
-
-                            </div>
-                        </li>
-
-                        <li class="partners__item">
-                            <div class="partners__card card">
-                                <a class="partners__image" href="#">
-
-                                    <img class="image-center" src="./assets/png/partner_4.png" alt="partner">
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="partners__item">
-                            <div class="partners__card card">
-                                <a class="partners__image" href="#">
-
-                                    <img class="image-center" src="./assets/png/partner_5.png" alt="partner">
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
-            </div>
-        </section>
 
+                <div class="slider__text">
+                    <div class="row row_size_large">
+                        <h1 class="preview__title">
+                            Первое в России профессионально сообщество курьерских служб &nbsp;
+                        </h1>
 
-
-        <section class="advantages">
-            <div class="row row_size_large">
-                <h2 class="advantages__title title_h2 text text_uppercase text_decoration_strip">
-                    Преимущества
-                </h2>
-
-                <div class="advantages__envelope">
-                    <span class="envelope__triangle_right"></span>
-                    <span class="envelope__triangle_left"></span>
+                    </div>
+                    <div class="row row_size_large">
+                        <p class="preview__text">
+                            Объединяем усилия предпринимателей отрасли и обеспечиваем благоприятные условия для развития услуг курьерской доставки
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="row row_size_large">
-                <div class="advantages__content">
-                    <ul class="advantages__list list">
-                        <li class="advantages__item list__item">
-                            <div class="advantages__card card">
-                                <div class="card__icon advantages__icon">
-                                    <i class="icon icon_advantages icon_advantages_sheet">
+            <div class="slider__item">
+
+                <div class="slider__img">
+
+                </div>
+
+                <div class="slider__text">
+                    <div class="row row_size_large">
+                        <h1 class="preview__title">
+                            Первое в России профессионально сообщество курьерских служб &nbsp;
+                        </h1>
+
+                    </div>
+                    <div class="row row_size_large">
+                        <p class="preview__text">
+                            Объединяем усилия предпринимателей отрасли и обеспечиваем благоприятные условия для развития услуг курьерской доставки
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+    
+
+    <section class="partners">
+    <div class="row row_size_large">
+        <h2 class="partners__title title_h2 text text_uppercase text_decoration_strip">
+            Члены Ассоциации
+        </h2>
+    </div>
+
+    <div class="row row_size_large">
+        <div class="partners__content slider-partners">
+
+            <ul class="partners__list slider-pt">
+
+                <li class="partners__item slider-pt__item">
+                    <div class="partners__card card">
+                        <a class="partners__image" href="#">
+
+                            <img src="/assets/png/partner_1_md.png" alt="partner">
+                        </a>
+                    </div>
+                </li>
+
+                <li class="partners__item slider-pt__item">
+                    <div class="partners__card card">
+                        <a class="partners__image" href="#">
+
+                            <img src="/assets/png/partner_2_md.png" alt="partner">
+                        </a>
+                    </div>
+                </li>
+
+                <li class="partners__item slider-pt__item">
+                    <div class="partners__card card">
+                        <a class="partners__image" href="#">
+
+                            <img src="/assets/png/partner_3_md.png" alt="partner">
+                        </a>
+
+                    </div>
+                </li>
+
+                <li class="partners__item slider-pt__item">
+                    <div class="partners__card card">
+                        <a class="partners__image" href="#">
+
+                            <img src="/assets/png/partner_4_md.png" alt="partner">
+                        </a>
+                    </div>
+                </li>
+
+                <li class="partners__item slider-pt__item">
+                    <div class="partners__card card">
+                        <a class="partners__image" href="#">
+
+                            <img src="/assets/png/partner_5_md.png" alt="partner">
+                        </a>
+                    </div>
+                </li>
+
+                <li class="partners__item slider-pt__item">
+                    <div class="partners__card card">
+                        <a class="partners__image" href="#">
+
+                            <img src="/assets/png/partner_1_md.png" alt="partner">
+                        </a>
+                    </div>
+                </li>
+
+                <li class="partners__item slider-pt__item">
+                    <div class="partners__card card">
+                        <a class="partners__image" href="#">
+
+                            <img src="/assets/png/partner_2_md.png" alt="partner">
+                        </a>
+                    </div>
+                </li>
+
+                <li class="partners__item slider-pt__item">
+                    <div class="partners__card card">
+                        <a class="partners__image" href="#">
+
+                            <img src="/assets/png/partner_3_md.png" alt="partner">
+                        </a>
+
+                    </div>
+                </li>
+
+                <li class="partners__item slider-pt__item">
+                    <div class="partners__card card">
+                        <a class="partners__image" href="#">
+
+                            <img src="/assets/png/partner_4_md.png" alt="partner">
+                        </a>
+                    </div>
+                </li>
+
+                <li class="partners__item slider-pt__item">
+                    <div class="partners__card card">
+                        <a class="partners__image" href="#">
+
+                            <img src="/assets/png/partner_5_md.png" alt="partner">
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
+    
+    <section class="advantages">
+    <div class="row row_size_large">
+        <h2 class="advantages__title title_h2 text text_uppercase text_decoration_strip">
+            Преимущества
+        </h2>
+
+        <div class="advantages__envelope">
+            <span class="envelope__triangle_right"></span>
+            <span class="envelope__triangle_left"></span>
+
+        </div>
+
+        <div class="envelope_text">
+            <svg viewBox="0 0 585 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect opacity="0.5" y="18" width="585" height="8" fill="#DDDDDD"/>
+				<rect opacity="0.5" width="585" height="8" fill="#DDDDDD"/>
+				<rect opacity="0.5" y="111" width="585" height="8" fill="#DDDDDD"/>
+				<rect opacity="0.5" y="36" width="585" height="8" fill="#DDDDDD"/>
+				<rect opacity="0.5" y="129" width="449" height="8" fill="#DDDDDD"/>
+				<rect opacity="0.5" y="54" width="585" height="10" fill="#DDDDDD"/>
+				<rect opacity="0.5" y="74" width="290" height="10" fill="#DDDDDD"/>
+			</svg>
+        </div>
+
+    </div>
+
+    <div class="row row_size_large">
+        <div class="advantages__content">
+
+            <ul class="advantages__list list slider-adv">
+                <li class="advantages__item list__item slider-adv__item">
+                    <div class="advantages__card card">
+                        <div class="card__icon advantages__icon">
+                            <i class="icon icon_advantages icon_advantages_sheet">
 								<svg
 									width="50"
 									height="50"
@@ -425,26 +436,26 @@
 									</defs>
 								</svg>
 							</i>
-                                </div>
+                        </div>
 
-                                <div class="card__header">
-                                    <h3 class="card__title card__title_decorative-line">
-                                        Доступ к чёрному списку курьеров рф
-                                    </h3>
-                                </div>
+                        <div class="card__header">
+                            <h3 class="card__title card__title_decorative-line">
+                                Доступ к чёрному списку курьеров рф
+                            </h3>
+                        </div>
 
-                                <div class="card__body">
-                                    <p class="card__description">
-                                        Бесплатный доступ к черному списку курьеров РФ (данные обновляются)
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                        <div class="card__body">
+                            <p class="card__description">
+                                Бесплатный доступ к черному списку курьеров РФ (данные обновляются)
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-                        <li class="advantages__item list__item">
-                            <div class="advantages__card card">
-                                <div class="card__icon advantages__icon">
-                                    <i class="icon icon_advantages icon_advantages_sheet">
+                <li class="advantages__item list__item slider-adv__item">
+                    <div class="advantages__card card">
+                        <div class="card__icon advantages__icon">
+                            <i class="icon icon_advantages icon_advantages_sheet">
 								<svg
 									width="50"
 									height="50"
@@ -484,26 +495,26 @@
 									/>
 								</svg>
 							</i>
-                                </div>
+                        </div>
 
-                                <div class="card__header">
-                                    <h3 class="card__title card__title_decorative-line">
-                                        Доступ к инсайдерской информации
-                                    </h3>
-                                </div>
+                        <div class="card__header">
+                            <h3 class="card__title card__title_decorative-line">
+                                Доступ к инсайдерской информации
+                            </h3>
+                        </div>
 
-                                <div class="card__body">
-                                    <p class="card__description">
-                                        Инсайды, прогнозы, тенденции, практический опыт коллег по отрасли
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                        <div class="card__body">
+                            <p class="card__description">
+                                Инсайды, прогнозы, тенденции, практический опыт коллег по отрасли
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-                        <li class="advantages__item list__item">
-                            <div class="advantages__card card">
-                                <div class="card__icon advantages__icon">
-                                    <i class="icon icon_advantages icon_advantages_sheet">
+                <li class="advantages__item list__item slider-adv__item">
+                    <div class="advantages__card card">
+                        <div class="card__icon advantages__icon">
+                            <i class="icon icon_advantages icon_advantages_sheet">
 								<svg
 									width="50"
 									height="50"
@@ -518,26 +529,26 @@
 									/>
 								</svg>
 							</i>
-                                </div>
+                        </div>
 
-                                <div class="card__header">
-                                    <h3 class="card__title card__title_decorative-line">
-                                        Оборудование и расходные материалы
-                                    </h3>
-                                </div>
+                        <div class="card__header">
+                            <h3 class="card__title card__title_decorative-line">
+                                Оборудование и расходные материалы
+                            </h3>
+                        </div>
 
-                                <div class="card__body">
-                                    <p class="card__description">
-                                        Больше 15 % скидки на расходники и материалы
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                        <div class="card__body">
+                            <p class="card__description">
+                                Больше 15 % скидки на расходники и материалы
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-                        <li class="advantages__item list__item">
-                            <div class="advantages__card card">
-                                <div class="card__icon advantages__icon">
-                                    <i class="icon icon_advantages icon_advantages_sheet">
+                <li class="advantages__item list__item slider-adv__item">
+                    <div class="advantages__card card">
+                        <div class="card__icon advantages__icon">
+                            <i class="icon icon_advantages icon_advantages_sheet">
 								<svg
 									width="45"
 									height="45"
@@ -559,26 +570,26 @@
 									</defs>
 								</svg>
 							</i>
-                                </div>
+                        </div>
 
-                                <div class="card__header">
-                                    <h3 class="card__title card__title_decorative-line">
-                                        Эквайринг
-                                    </h3>
-                                </div>
+                        <div class="card__header">
+                            <h3 class="card__title card__title_decorative-line">
+                                Эквайринг
+                            </h3>
+                        </div>
 
-                                <div class="card__body">
-                                    <p class="card__description">
-                                        Снижение ставки эвайринга с 1.7% до 1.2%
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                        <div class="card__body">
+                            <p class="card__description">
+                                Снижение ставки эвайринга с 1.7% до 1.2%
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-                        <li class="advantages__item list__item">
-                            <div class="advantages__card card">
-                                <div class="card__icon advantages__icon">
-                                    <i class="icon icon_advantages icon_advantages_sheet">
+                <li class="advantages__item list__item slider-adv__item">
+                    <div class="advantages__card card">
+                        <div class="card__icon advantages__icon">
+                            <i class="icon icon_advantages icon_advantages_sheet">
 								<svg
 									width="50"
 									height="50"
@@ -593,26 +604,26 @@
 									/>
 								</svg>
 							</i>
-                                </div>
+                        </div>
 
-                                <div class="card__header">
-                                    <h3 class="card__title card__title_decorative-line">
-                                        Персонал
-                                    </h3>
-                                </div>
+                        <div class="card__header">
+                            <h3 class="card__title card__title_decorative-line">
+                                Персонал
+                            </h3>
+                        </div>
 
-                                <div class="card__body">
-                                    <p class="card__description">
-                                        Оперативный набор персонала за счет собственной электронной площадки и HR — службы
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                        <div class="card__body">
+                            <p class="card__description">
+                                Оперативный набор персонала за счет собственной электронной площадки и HR — службы
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-                        <li class="advantages__item list__item">
-                            <div class="advantages__card card">
-                                <div class="card__icon advantages__icon">
-                                    <i class="icon icon_advantages icon_advantages_sheet">
+                <li class="advantages__item list__item slider-adv__item">
+                    <div class="advantages__card card">
+                        <div class="card__icon advantages__icon">
+                            <i class="icon icon_advantages icon_advantages_sheet">
 								<svg
 									width="50"
 									height="50"
@@ -639,273 +650,269 @@
 									</defs>
 								</svg>
 							</i>
-                                </div>
+                        </div>
 
-                                <div class="card__header">
-                                    <h3 class="card__title card__title_decorative-line">
-                                        Логистический софт
-                                    </h3>
-                                </div>
+                        <div class="card__header">
+                            <h3 class="card__title card__title_decorative-line">
+                                Логистический софт
+                            </h3>
+                        </div>
 
-                                <div class="card__body">
-                                    <p class="card__description">
-                                        Бесплатное ПО для курьерской компании
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <span class="advantages__btn advantages__btn_next"></span>
-                    <span class="advantages__btn advantages__btn_back"></span>
-                </div>
-            </div>
-        </section>
+                        <div class="card__body">
+                            <p class="card__description">
+                                Бесплатное ПО для курьерской компании
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 
-        <section class="news">
-            <div class="row row_size_large row_center">
-                <h2 class="news__title title_h2 text text_uppercase text_decoration_strip">
-                    Новости Ассоциации
-                </h2>
-            </div>
+    <section class="news">
+    <div class="row row_size_large row_center">
+        <h2 class="news__title title_h2 text text_uppercase text_decoration_strip">
+            Новости Ассоциации
+        </h2>
+    </div>
 
-            <div class="row row_size_large">
-                <div class="news__content">
-                    <ul class="news__list list">
-                        <li class="news__item list__item">
-                            <div class="news__card card">
-                                <div class="card__image">
-                                    <img class="news__image" src="./assets/img/news_1.jpg" alt="photo" />
-                                </div>
-                                <div class="card__header card__header_padding">
-                                    <span class="card__date">
+    <div class="row row_size_large">
+        <div class="news__content">
+            <ul class="news__list list">
+                <li class="news__item list__item">
+                    <div class="news__card card">
+                        <figure class="card__image">
+                            <img class="news__image" src="/assets/img/news_1.jpg" alt="photo" />
+                        </figure>
+                        <div class="card__header card__header_padding">
+                            <span class="card__date">
 								10 Июня 2020
 							</span>
-                                    <h3 class="card__title">
-                                        Заголовок новости может быть длинным
-                                    </h3>
-                                </div>
-                                <div class="card__body card__body_padding">
-                                    <p class="card__description news__description">
-                                        Равным образом, выбранный нами инновационный путь позволяет выполнить важные задания по разработке новых предложений.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                            <h3 class="card__title">
+                                Вебинар PostService
+                            </h3>
+                        </div>
+                        <div class="card__body card__body_padding">
+                            <p class="card__description news__description">
+                                Функциональные нововведения, как оптимизировать свою деятельность?
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-                        <li class="news__item list__item">
-                            <div class="news__card card">
-                                <div class="card__image">
-                                    <img class="news__image" src="./assets/img/news_2.jpg" alt="photo" />
-                                </div>
-                                <div class="card__header card__header_padding">
-                                    <span class="card__date">
+                <li class="news__item list__item">
+                    <div class="news__card card">
+                        <figure class="card__image">
+                            <img class="news__image" src="/assets/img/news_2.jpg" alt="photo" />
+                        </figure>
+                        <div class="card__header card__header_padding">
+                            <span class="card__date">
 								10 Июня 2020
 							</span>
-                                    <h3 class="card__title">
-                                        Заголовок новости может быть длинным
-                                    </h3>
-                                </div>
-                                <div class="card__body card__body_padding">
-                                    <p class="card__description news__description">
-                                        Равным образом, выбранный нами инновационный путь позволяет выполнить важные задания по разработке новых предложений.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                            <h3 class="card__title">
+                                Онлайн-заседание членов ассоциации по грузоперевозкам
+                            </h3>
+                        </div>
+                        <div class="card__body card__body_padding">
+                            <p class="card__description news__description">
+                                Планируется обсуждение новых требований к региональным...
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-                        <li class="news__item list__item">
-                            <div class="news__card card">
-                                <div class="card__image">
-                                    <img class="news__image" src="./assets/img/news_3.jpg" alt="photo" />
-                                </div>
-                                <div class="card__header card__header_padding">
-                                    <span class="card__date">
+                <li class="news__item list__item">
+                    <div class="news__card card">
+                        <figure class="card__image">
+                            <img class="news__image" src="/assets/img/news_6_hd.jpg" alt="photo" />
+                        </figure>
+                        <div class="card__header card__header_padding">
+                            <span class="card__date">
 								10 Июня 2020
 							</span>
-                                    <h3 class="card__title">
-                                        Заголовок новости может быть длинным
-                                    </h3>
-                                </div>
-                                <div class="card__body card__body_padding">
-                                    <p class="card__description news__description">
-                                        Равным образом, выбранный нами инновационный путь позволяет выполнить важные задания по разработке новых предложений.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                            <h3 class="card__title">
+                                Приветсвуем новых участников!
+                            </h3>
+                        </div>
+                        <div class="card__body card__body_padding">
+                            <p class="card__description news__description">
+                                Теперь в рядах ассоциации КС РусЭкспресс и Delline.
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-                        <li class="news__item list__item">
-                            <div class="news__card card">
-                                <div class="card__image">
-                                    <img class="news__image" src="./assets/img/news_4.jpg" alt="photo" />
-                                </div>
-                                <div class="card__header card__header_padding">
-                                    <span class="card__date">
+                <li class="news__item list__item">
+                    <div class="news__card card">
+                        <figure class="card__image">
+                            <img class="news__image" src="/assets/img/news_4.png" alt="photo" />
+                        </figure>
+                        <div class="card__header card__header_padding">
+                            <span class="card__date">
 								10 Июня 2020
 							</span>
-                                    <h3 class="card__title">
-                                        Заголовок новости может быть длинным
-                                    </h3>
-                                </div>
-                                <div class="card__body card__body_padding">
-                                    <p class="card__description news__description">
-                                        Равным образом, выбранный нами инновационный путь позволяет выполнить важные задания по разработке новых предложений.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                            <h3 class="card__title">
+                                Подключение к ПО PostService
+                            </h3>
+                        </div>
+                        <div class="card__body card__body_padding">
+                            <p class="card__description news__description">
+                                Задаём новый стандарт качества на рынке курьерской доставки - логистическая платформа полного цикла.
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-                        <li class="news__item list__item">
-                            <div class="news__card card">
-                                <div class="card__image">
-                                    <img class="news__image" src="./assets/img/news_5.jpg" alt="photo" />
-                                </div>
-                                <div class="card__header card__header_padding">
-                                    <span class="card__date">
+                <li class="news__item list__item">
+                    <div class="news__card card">
+                        <figure class="card__image">
+                            <img class="news__image" src="/assets/img/news_1_hd.jpg" alt="photo" />
+                        </figure>
+                        <div class="card__header card__header_padding">
+                            <span class="card__date">
 								10 Июня 2020
 							</span>
-                                    <h3 class="card__title">
-                                        Заголовок новости может быть длинным
-                                    </h3>
-                                </div>
-                                <div class="card__body card__body_padding">
-                                    <p class="card__description news__description">
-                                        Равным образом, выбранный нами инновационный путь позволяет выполнить важные задания по разработке новых предложений.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                            <h3 class="card__title">
+                                Новые члены ассоциации
+                            </h3>
+                        </div>
+                        <div class="card__body card__body_padding">
+                            <p class="card__description news__description">
+                                Встречаем в МАКС новых членов - КС Вестовой и DHL. Подробнее о членстве в разделе сайта..
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-                        <li class="news__item list__item">
-                            <div class="news__card card">
-                                <div class="card__image">
-                                    <img class="news__image" src="./assets/img/news_6.jpg" alt="photo" />
-                                </div>
-                                <div class="card__header card__header_padding">
-                                    <span class="card__date">
+                <li class="news__item list__item">
+                    <div class="news__card card">
+                        <figure class="card__image">
+                            <img class="news__image" src="/assets/img/news_6.jpeg" alt="photo" />
+                        </figure>
+                        <div class="card__header card__header_padding">
+                            <span class="card__date">
 								10 Июня 2020
 							</span>
-                                    <h3 class="card__title">
-                                        Заголовок новости может быть длинным
-                                    </h3>
-                                </div>
-                                <div class="card__body card__body_padding">
-                                    <p class="card__description news__description">
-                                        Равным образом, выбранный нами инновационный путь позволяет выполнить важные задания по разработке новых предложений.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+                            <h3 class="card__title">
+                                Старт!
+                            </h3>
+                        </div>
+                        <div class="card__body card__body_padding">
+                            <p class="card__description news__description">
+                                Запустила свою деятельность Московская Ассоциация курьерских служб (МАКС)
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 
-    </main>
+</main>
 
     <footer class="footer">
 
-        <div class="row row_size_large row_padding_bottom row_padding_top row_wrap">
+    <div class="row row_size_large row_padding_bottom row_padding_top row_wrap">
 
-            <div class="footer__logo logo">
-                <a href="#">
-                    <img src="./assets/svg/logo.svg" alt="МАКС">
-                </a>
-            </div>
+        <div class="footer__logo logo">
+            <a href="#">
+                <img src="/assets/svg/logo.svg" alt="МАКС">
+            </a>
+        </div>
 
-            <div class="about-us">
+        <div class="about-us">
 
-                <ul class="about-us__list">
+            <ul class="about-us__list">
 
-                    <li class="about-us__item">
-                        <a href="#" class="about-us__link">О МАКС</a>
-                    </li>
+                <li class="about-us__item">
+                    <a href="#" class="about-us__link">О МАКС</a>
+                </li>
 
-                    <li class="about-us__item">
-                        <a href="#" class="about-us__link">Экспертиза</a>
-                    </li>
+                <li class="about-us__item">
+                    <a href="#" class="about-us__link">Экспертиза</a>
+                </li>
 
-                    <li class="about-us__item">
-                        <a href="#" class="about-us__link">Членство</a>
-                    </li>
+                <li class="about-us__item">
+                    <a href="#" class="about-us__link">Членство</a>
+                </li>
 
-                    <li class="about-us__item">
-                        <a href="#" class="about-us__link">Аналитика</a>
-                    </li>
+                <li class="about-us__item">
+                    <a href="#" class="about-us__link">Аналитика</a>
+                </li>
 
-                    <li class="about-us__item">
-                        <a href="#" class="about-us__link">Мероприятия</a>
-                    </li>
+                <li class="about-us__item">
+                    <a href="#" class="about-us__link">Мероприятия</a>
+                </li>
 
-                    <li class="about-us__item">
-                        <a href="#" class="about-us__link">Покупателям</a>
-                    </li>
+                <li class="about-us__item">
+                    <a href="#" class="about-us__link">Покупателям</a>
+                </li>
 
-                </ul>
+            </ul>
 
-            </div>
+        </div>
 
-            <div class="footer__contacts contacts">
+        <div class="footer__contacts contacts">
 
-                <div class="contacts__media">
-                    <h3 class="
+            <div class="contacts__media">
+                <h3 class="
                     contacts__text 
                     contacts__text_uppercase">
-                        Медиа
-                    </h3>
+                    Медиа
+                </h3>
+            </div>
+
+            <div class="contacts__telephone">
+
+                <div class="contacts__icon">
+                    <i class="icon icon_contacts icon_contacts_telephone"></i>
                 </div>
-
-                <div class="contacts__telephone">
-
-                    <div class="contacts__icon">
-                        <i class="icon icon_contacts icon_contacts_telephone"></i>
-                    </div>
-                    <p class="
+                <p class="
                     contacts__text
                     contacts__text_padding_left">
-                        8 800 686 5555
-                    </p>
+                    8 800 686 5555
+                </p>
 
+            </div>
+
+            <div class="contacts__mail">
+
+                <div class="contacts__icon">
+                    <i class="icon icon_contacts icon_contacts_mail"></i>
                 </div>
-
-                <div class="contacts__mail">
-
-                    <div class="contacts__icon">
-                        <i class="icon icon_contacts icon_contacts_mail"></i>
-                    </div>
-                    <p class="
+                <p class="
                     contacts__text
                     contacts__text_padding_left">
-                        maxinfo@gmail.com
-                    </p>
-
-                </div>
+                    maxinfo@gmail.com
+                </p>
 
             </div>
 
         </div>
 
-        <div class="row">
-            <div class="footer__copyright copyright">
+    </div>
 
-                <div class="row row_size_large">
+    <div class="row">
+        <div class="footer__copyright copyright">
 
-                    <p class="copyright__text">
-                        Copyright© 2020 межрегиональная ассоциация курьерских служб
-                    </p>
+            <div class="row row_size_large">
 
-                </div>
+                <p class="copyright__text">
+                    Copyright© 2020 межрегиональная ассоциация курьерских служб
+                </p>
 
             </div>
-        </div>
 
-    </footer>
+        </div>
+    </div>
+
+</footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="./assets/js/bundle.js"></script>
-</body>
+<script type="text/javascript" src="./assets/js/bundle.js"></script></body>
 
 </html>

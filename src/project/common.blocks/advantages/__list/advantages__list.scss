@@ -2,12 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 @media screen and (max-width: $desktopWidth) {
     .advantages__list {
-        padding-top: 15px;
+        padding-top: 45px;
     }
 }
 
@@ -15,7 +15,7 @@
     .advantages__list {
         display: flex;
         flex-wrap: nowrap;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         padding: 0;
         overflow: hidden;
@@ -25,7 +25,7 @@
 
 @media screen and (max-width: $tableWidth) {
     .advantages__list {
-        width: 80%;
+        width: 100%;
     }
 }
 

@@ -4,10 +4,16 @@
     padding: 0;
     font-family: "Roboto Condensed";
     font-size: 14px;
-    line-height: 16px;
+    line-height: 20px;
     font-weight: bold;
     text-transform: uppercase;
     color: $card-text_color;
+}
+
+.card__title_overflow_hidden {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 @media screen and (max-width: $smDesktopWidth) {
@@ -19,6 +25,7 @@
 
 @media screen and (max-width: $tableWidth) {
     .card__title {
+        width: 100%;
         font-size: 10px;
         line-height: 12px;
     }

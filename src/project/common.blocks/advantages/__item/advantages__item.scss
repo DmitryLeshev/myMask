@@ -10,9 +10,9 @@
 
 @media screen and (max-width: $smDesktopWidth) {
     .advantages__item {
-        min-width: 300px;
         padding-top: 70px;
-        padding-right: 70px;
+        margin: 0 40px;
+        width: 100%;
     }
 }
 
@@ -20,14 +20,14 @@
     .advantages__item {
         padding-top: 0;
         padding-bottom: 10px;
+        padding-right: 0;
         margin: 0 auto;
     }
 }
 
 @media screen and (max-width: $phoneWidth) {
     .advantages__item {
-        min-width: 200px;
         padding: 0;
-        margin: 0 40px 0 0;
+        margin: 0 45px;
     }
 }

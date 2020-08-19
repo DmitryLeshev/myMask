@@ -1,8 +1,15 @@
-.header__info {
-
-}
+.header__info {}
 
 @media screen and (max-width: $desktopWidth) {
+    .header__info {
+        position: absolute;
+        z-index: 1;
+        top: 670px;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: $smDesktopWidth) {
     .header__info {
         display: none;
     }

@@ -1,62 +1,31 @@
 .partners {
-    padding-bottom: 30px;
-}
-
-.partners__title {
-    display: block;
-    margin-top: 70px;
-    margin-bottom: 40px;
-}
-
-@media screen and (max-width: $tableWidth) {
-    .partners__title {
-        margin-top: 40px;
-    }
+    padding-bottom: 65px;
 }
 
 .partners__content {
     width: 100%;
-    margin-bottom: 40px;
 }
 
-@media screen and (max-width: $smDesktopWidth) {
-    .partners__content {
-        margin-bottom: 50px;
-    }
+.partners__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    padding: 20px;
+    height: 126px;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(59, 69, 92, 0.1);
 }
 
 .partners__list {
     display: flex;
     justify-content: space-between;
     @include reset-list;
-    overflow-x: scroll;
     padding-bottom: 20px;
 }
 
-.partners__list::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    background-color: #F5F5F5;
-}
-
-.partners__list::-webkit-scrollbar {
-    width: 4px;
-    height: 8px;
-    background-color: #F5F5F5;
-}
-
-.partners__list::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #36A9E1;
-    background-image: url("../../../assets/svg/scrollbar.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.partners__item {
-    margin-left: 20px;
-}
+.partners__item {}
 
 .partners__item:hover .partners__image {
     transition: 0.3s;
@@ -67,24 +36,74 @@
     margin-left: 0;
 }
 
-.partners__card {
-    border: 1px solid #DDDDDD;
-    border-radius: 2px;
-    box-shadow: 2px 2px 4px rgba(59, 69, 92, 0.1);
-}
-
 .partners__image {
     display: block;
-    width: 220px;
-    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
 }
 
-.slider-partners {
-    width: 100%;
-    .slider-partners__content {
-        width: 100%;
-        .slider-partners__item {
-            width: 100%;
-        }
+.partners__title {
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: $desktopWidth) {
+    .partners {
+        padding-bottom: 0;
+    }
+    .partners__title {
+        margin-top: 45px;
+        margin-bottom: 30px;
     }
 }
+
+@media screen and (max-width: $smDesktopWidth) {
+    .partners__title {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: $tableWidth) {
+    .partners__title {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .partners__card {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: $phoneWidth) {
+    .partners__title {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .partners__card {
+        margin: 0px 5px;
+        height: 80px;
+    }
+}
+
+@import "./__slider/parthners__slider.scss";
+// .partners__list::-webkit-scrollbar-track {
+//     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+//     border-radius: 10px;
+//     background-color: #F5F5F5;
+// }
+// .partners__list::-webkit-scrollbar {
+//     width: 4px;
+//     height: 8px;
+//     background-color: #F5F5F5;
+// }
+// .partners__list::-webkit-scrollbar-thumb {
+//     border-radius: 10px;
+//     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+//     background-color: #36A9E1;
+//     background-image: url("/assets/svg/scrollbar.svg");
+//     background-repeat: no-repeat;
+//     background-position: center;
+// }
